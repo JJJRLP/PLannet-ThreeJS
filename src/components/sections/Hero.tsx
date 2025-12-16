@@ -40,12 +40,12 @@ export default function Hero({ isActive }: HeroProps) {
                         justifyContent: 'center',
                     }}
                 >
-                    <button className="btn-primary">
-                        <span>Explore the Code</span>
+                    <a href="/technology" className="btn-primary">
+                        <span>View Technology</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
-                    </button>
+                    </a>
                     <button className="btn-secondary">View on GitHub</button>
                 </div>
             </div>
