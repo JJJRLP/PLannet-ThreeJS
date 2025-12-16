@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Planet ThreeJS - UX Showcase by Skylos
 
-## Getting Started
+This project serves as a showcase for **Skylos Solutions**, demonstrating how advanced 3D graphics and immersive design can elevate web experiences.
 
-First, run the development server:
+## Goal
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The primary goal of this page is to inspire developers and designers to explore **Three.js** and **WebGL** for enhancing web page design. We believe that the future of the web is immersive, interactive, and visually stunning.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This demo highlights:
+-   **Volumetric Point Clouds:** Creating complex 3D structures using efficient particle systems.
+-   **Scroll-Driven Animation:** Seamlessly blending 3D interactions with standard DOM scrolling using GSAP.
+-   **Premium UI/UX:** Combining modern glassmorphism, glowing typography, and smooth transitions for a high-end feel.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Next.js 14** (App Router)
+-   **Three.js** / **React Three Fiber**
+-   **GSAP** (ScrollTrigger)
+-   **Tailwind CSS** (if applicable, or Custom CSS)
 
-## Learn More
+## About Skylos
 
-To learn more about Next.js, take a look at the following resources:
+**Skylos Solutions** constitutes a team of innovators dedicated to pushing the boundaries of AI and Blockchain technology. We build digital products that are not only functional but also visually captivating.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Designed with ❤️ by Skylos.*
