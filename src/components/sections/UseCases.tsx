@@ -47,40 +47,22 @@ export default function UseCases() {
 
     return (
         <section className="section" style={{ minHeight: 'auto', padding: '6rem 0' }}>
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 2rem' }}>
+            <div className="w-full max-w-5xl mx-auto px-8">
                 <div className="section-label">Real World Impact</div>
-                <h2 className="section-title" style={{ marginBottom: '4rem', textAlign: 'center' }}>
+                <h2 className="section-title text-center mb-16">
                     Beyond the Visuals
                 </h2>
 
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-                    gap: '2rem'
-                }}>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {cases.map((item, index) => (
-                        <div key={index} className="glass-panel" style={{
-                            padding: '2.5rem',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            textAlign: 'center',
-                            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
-                        }}>
-                            <div style={{
-                                marginBottom: '1.5rem',
-                                padding: '1rem',
-                                background: 'rgba(6, 182, 212, 0.1)',
-                                borderRadius: '50%',
-                                border: '1px solid rgba(6, 182, 212, 0.2)',
-                                boxShadow: '0 0 20px rgba(6, 182, 212, 0.1)'
-                            }}>
+                        <div key={index} className="glass-panel p-10 flex flex-col items-center text-center transition-all duration-300 ease-out hover:-translate-y-2 group">
+                            <div className="mb-6 p-4 bg-cyan-500/10 rounded-full border border-cyan-500/20 shadow-[0_0_20px_rgba(6,182,212,0.1)] group-hover:scale-110 transition-transform duration-300">
                                 {item.icon}
                             </div>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '1rem', color: '#fff' }}>
+                            <h3 className="text-xl font-bold mb-4 text-white">
                                 {item.title}
                             </h3>
-                            <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6', fontSize: '0.95rem' }}>
+                            <p className="text-slate-400 leading-relaxed text-sm">
                                 {item.description}
                             </p>
                         </div>
